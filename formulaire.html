@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="icon" href="./logo.jpg" type="image/png">
+        <meta charset="utf-8">
+        <title>Formulaire De Telechargement Zone </title>
+    </head>
+    <body>
+        <header>
+            <link rel="stylesheet" href="style1.css">
+            <link rel="stylesheet" href="./css/bootstrap.scss">
+        <nav class="menu">
+            <ul>
+                <li class="menu-item">
+                    <a href="#">Home</a>
+                    <ul class="sous-menu">
+                        <li><a href="essai.html">Accueil</a></li>
+                        <li><a href="#">Telechargement</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item">
+                    <a href="#">Formulaire</a>
+                    <ul class="sous-menu">
+                        <li><a href="formulaire.html">Formulaire D'Inscription</a></li>
+                        <li><a href="#">Communautés</a></li>
+                    </ul>
+                </li>
+                <li class="menu-item">
+                    <a href="#">A Propos</a>
+                    <ul class="sous-menu">
+                        <li><a href="#">Actualités</a></li>
+                        <li><a href="#">Informations</a></li>
+                    </ul>
+                </li>    
+            </ul>
+        </nav>
+        </header>
+        <section class="new">
+        <h1 style="text-align: center;" class="h1"> BIENVENUE A TOUS SUR LE FORMULAIRE D'INSCRIPTION DE TELECHARGEMENT ZONE </h1>
+        <hr>
+        <h2 style="text-align: center;" class="h1"> VEILLEZ REMPLIR LES ELEMENTS SUIVANTS </h2>
+        <form method="post" action="action.php" name="MonFormulaire" autocomplete="on" id="id_form" class="form" style="text-align: center;">
+            <fieldset form="id_form">
+                <legend class="label">FORMULAIRE D'INSCRIPTION</legend>
+            <p><label for="Nom" class="label"> Nom : </label> <input name="Name" id="Nom" placeholder="Entrée Votre Nom" type="text" required></p>
+            <p><label for="Prenom" class="label"> Prenom  : </label> <input name="UserName" id="Prenom" placeholder="Entrée Votre Prenom " type="text" required></p>
+            <p><label for="Sexe" class="label"> Sexe :
+                Masculin <input name="Sex" id="Sexe" type="radio" required>
+                Feminin <input name="Sex" id="Sexe" type="radio" required>
+                </label>
+            </p>
+            <p><label class="label"> Vous Recevoir Des Mises A Jour Venant Du Site ?</label> <input type="checkbox" name="PublishNews"></p>
+            <p><label for="MotDePasse" class="label"> Mot De Passe : </label> <input name="PassWord" id="MotDePasse" placeholder="Entrée Votre Mot De Passe" type="password" required></p>
+            <p><label class="label">Entrée La Date D'Aujourd'hui : </label><input name="Day" id="Date" type="datetime-local" required></p>
+            <P><label for="email" class="label">Email : </label> <input name="email" id="email" placeholder="Entrée Votre email" type="email" required></P>
+            <label for="Annuler"></label> <input name="Cancel" id="Annuler" type="reset" class="button1">
+            <label for="Envoyer"></label> <input name="Send" id="Envoyer" class="button2" type="submit">
+
+            </fieldset>
+        </form>
+        </section>
+        <button class=".bnt">b</button>
+        <div class="r">
+            <div class="col offset-4">A</div>
+            <div class="col offset-4">B</div>
+        </div>
+    </body>
+    <footer class="">
+        <p>Dowload Zone, Copyright &copy; 2019</p>
+    </footer>
+   
+</html>
