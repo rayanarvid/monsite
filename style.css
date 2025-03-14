@@ -1,0 +1,60 @@
+#rechercher{
+    border: 1px solid #ccc;
+    border-radius: 50px 0px 0px 50px;
+    padding: 10px;
+    width: 500px;
+
+}
+#recherche{
+    height: 35px;
+    background:;
+    border-radius: 20px;
+}
+#id_form1{
+    padding-left: 30%;
+}
+header{
+    background-image: url(./wallpapertitanfall2videogames.jp);
+}
+nav{
+    float: right;
+
+}
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100vh;
+    background-color: #333;
+    padding: 20px;
+    border-right: 1px solid #555;
+}
+.menu-toggle{
+    cursor: pointer;
+}
+.menu-toggle i{
+    font-size: 24px;
+    color: #fff;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu li{
+    margin-bottom: 20px;
+}
+.menu li a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+.menu li a:hover{
+    background-color: #555;
+}
+.menu li a i{
+    margin-right: 10px;
+}
